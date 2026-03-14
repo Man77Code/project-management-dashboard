@@ -157,31 +157,43 @@ http://localhost:5173
 
 ## 📡 API Endpoints
 
-### Projects
+## 📡 API Documentation
+
+API endpoints can be tested using **Postman**.
+
+A ready-to-use Postman collection is included in the project:
 
 ```
-GET    /api/projects
-POST   /api/projects
+docs/project-management-api.postman_collection.json
+```
+
+### How to Use
+
+API Documentation : 
+
+1. Open Postman
+2. Click Import
+3. Select the collection file
+4. All API endpoints will be available for testing.
+
+### Available Endpoints
+
+#### Projects
+
+GET /api/projects
+POST /api/projects
 DELETE /api/projects/:id
-```
 
-### Tasks
+#### Tasks
 
-```
-GET    /api/projects/:projectId/tasks
-POST   /api/projects/:projectId/tasks
-PUT    /api/tasks/:id
+GET /api/projects/:projectId/tasks
+POST /api/projects/:projectId/tasks
+PUT /api/tasks/:id
 DELETE /api/tasks/:id
-```
 
----
 
 ## 📸 Screenshots
 
-Add screenshots of:
-
-* Projects Dashboard
-* Project Tasks Page
 
 ---
 

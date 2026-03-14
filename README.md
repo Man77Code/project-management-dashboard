@@ -81,7 +81,7 @@ project-management-dashboard
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/yourusername/project-management-dashboard.git
+git clone https://github.com/Man77Code/project-management-dashboard.git
 ```
 
 ---

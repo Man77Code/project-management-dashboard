@@ -1,26 +1,26 @@
-# Project Management Dashboard (MERN)
+ Project Management Dashboard (MERN)
 
 A full-stack **Project Management Dashboard** built using the MERN Stack (MongoDB, Express.js, React, Node.js).
 This application allows users to create projects, manage tasks, update task status, and organize project workflows.
 
 ---
 
-## 🚀 Features
+ 🚀 Features
 
-### Project Management
+ Project Management
 
 * Create new projects
 * View all projects
 * Delete projects
 
-### Task Management
+ Task Management
 
 * Create tasks within a project
 * Update task status (Pending → Done)
 * Set task priority (Low, Medium, High)
 * Delete tasks
 
-### Dashboard UI
+ Dashboard UI
 
 * Responsive UI using Tailwind CSS
 * Project cards layout
@@ -29,9 +29,9 @@ This application allows users to create projects, manage tasks, update task stat
 
 ---
 
-## 🛠 Tech Stack
+ 🛠 Tech Stack
 
-### Frontend
+ Frontend
 
 * React
 * React Router
@@ -39,7 +39,7 @@ This application allows users to create projects, manage tasks, update task stat
 * Tailwind CSS
 * Vite
 
-### Backend
+ Backend
 
 * Node.js
 * Express.js
@@ -48,7 +48,7 @@ This application allows users to create projects, manage tasks, update task stat
 
 ---
 
-## 📂 Project Structure
+ 📂 Project Structure
 
 ```
 project-management-dashboard
@@ -76,9 +76,9 @@ project-management-dashboard
 
 ---
 
-## ⚙️ Installation
+ ⚙️ Installation
 
-### 1️⃣ Clone the repository
+ 1️⃣ Clone the repository
 
 ```
 git clone https://github.com/Man77Code/project-management-dashboard.git
@@ -86,7 +86,7 @@ git clone https://github.com/Man77Code/project-management-dashboard.git
 
 ---
 
-### 2️⃣ Install Backend Dependencies
+ 2️⃣ Install Backend Dependencies
 
 ```
 cd backend
@@ -95,18 +95,16 @@ npm install
 
 ---
 
-### 3️⃣ Install Frontend Dependencies
+ 3️⃣ Install Frontend Dependencies
 
 ```
 cd frontend
 npm install
 ```
 
----
+ 🔐 Environment Variables
 
-## 🔐 Environment Variables
-
-### Backend `.env`
+ Backend `.env`
 
 ```
 PORT=5000
@@ -121,15 +119,15 @@ MONGO_URI=your_mongodb_connection_string
 VITE_API_URL=http://localhost:5000/api
 ```
 
----
 
-## ▶️ Run the Application
 
-### Start Backend
+ ▶️ Run the Application
+
+ Start Backend
 
 ```
 cd backend
-npm run dev
+node server.js
 ```
 
 Server runs on:
@@ -140,7 +138,7 @@ http://localhost:5000
 
 ---
 
-### Start Frontend
+ Start Frontend
 
 ```
 cd frontend
@@ -155,11 +153,9 @@ http://localhost:5173
 
 ---
 
-## 📡 API Endpoints
+ 📡 API Documentation
 
-## 📡 API Documentation
-
-API endpoints can be tested using **Postman**.
+API endpoints can be tested using Postman.
 
 A ready-to-use Postman collection is included in the project:
 
@@ -167,7 +163,7 @@ A ready-to-use Postman collection is included in the project:
 docs/project-management-api.postman_collection.json
 ```
 
-### How to Use
+ How to Use
 
 API Documentation : 
 
@@ -176,28 +172,22 @@ API Documentation :
 3. Select the collection file
 4. All API endpoints will be available for testing.
 
-### Available Endpoints
+ 📡 API Endpoints
 
-#### Projects
+ Projects
 
 GET /api/projects
 POST /api/projects
 DELETE /api/projects/:id
 
-#### Tasks
+ Tasks
 
 GET /api/projects/:projectId/tasks
 POST /api/projects/:projectId/tasks
 PUT /api/tasks/:id
 DELETE /api/tasks/:id
 
-
-## 📸 Screenshots
-
-
----
-
-## 🎯 Future Improvements
+ 🎯 Future Improvements
 
 * Authentication (JWT)
 * Drag & Drop task board
@@ -205,9 +195,8 @@ DELETE /api/tasks/:id
 * Search & filtering
 * User collaboration
 
----
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Manish Bhagat
 FUllStack Developer | 
